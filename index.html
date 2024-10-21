@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marr Dev Portfolio</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Arial', sans-serif;
+            background-color: #0a0a0a;
+            color: white;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        header {
+            text-align: center;
+            padding: 50px 0;
+            background: linear-gradient(90deg, #00c6ff, #0072ff);
+            color: white;
+        }
+        header img {
+            border-radius: 50%;
+            width: 150px;
+            height: 150px;
+        }
+        header h1 {
+            margin: 20px 0 10px;
+            font-size: 3rem;
+        }
+        header p {
+            font-size: 1.2rem;
+        }
+        nav {
+            text-align: center;
+            margin-top: 20px;
+        }
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-size: 1.2rem;
+            border-bottom: 2px solid transparent;
+            transition: all 0.3s ease;
+        }
+        nav a:hover {
+            border-bottom: 2px solid #00c6ff;
+        }
+        section {
+            padding: 50px 0;
+        }
+        .about, .projects, .contact {
+            text-align: center;
+        }
+        .projects-grid {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+        .project-card {
+            background-color: #1a1a1a;
+            border-radius: 10px;
+            overflow: hidden;
+            width: 300px;
+            box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.5);
+            transition: transform 0.3s ease;
+        }
+        .project-card:hover {
+            transform: scale(1.05);
+        }
+        .project-card img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+        .project-card h3 {
+            margin: 15px 0;
+            font-size: 1.5rem;
+        }
+        .project-card p {
+            padding: 0 15px 15px;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #111;
+        }
+        footer p {
+            margin: 0;
+            font-size: 1rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="file:///C:/Users/HP/Pictures/Screenshots/Screenshot%202024-10-21%20160630.png" alt="Marr Dev Profile">
+        <h1>Marr Dev</h1>
+        <p>Full-Stack Developer & Designer</p>
+        <nav>
+            <a href="#about">About</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <section class="about" id="about">
+        <div class="container">
+            <h2>About Me</h2>
+            <p>Hello! I’m Marr Dev, a passionate developer with a focus on creating modern and efficient solutions. I have experience in full-stack development, web design, and enjoy working on both frontend and backend technologies.</p>
+        </div>
+    </section>
+
+    <section class="projects" id="projects">
+        <div class="container">
+            <h2>My Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <img src="file:///C:/Users/HP/Pictures/Screenshots/Screenshot%202024-09-28%20000727.png" alt="Project 1">
+                    <h3>Project One</h3>
+                    <p>This project 150hari di minecraft -_-.</p>
+                </div>
+                <div class="project-card">
+                    <img src="file:///C:/Users/HP/Pictures/Screenshots/Screenshot%202024-09-08%20175204.png">
+                    <h3>Project Two</h3>
+                    <p>A potret orang jago survival -_ .</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <div class="container">
+            <h2>Contact Me</h2>
+            <p>Have a project in mind or want to collaborate? Feel free to reach out!</p>
+            <p>Email: <a href="mailto:mardev@gioo.com" style="color: #00c6ff;">contact@marrdev.com</a></p>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Marr Dev. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
